@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 0px;
+    width: 286px;
+    flex: 2 1 286px;
+}
+.logo {
+    height: 50px;
+    width: 121px;
+}
+nav {
+    position: relative;
+    bottom: 33px;
+    left: 900px;
+    color: white;
+}
+nav a {
+    margin-right: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
+.mission {
+    display: inline-block;
+    position: relative;
+    bottom: 500px;
+    display: inline-flex;
+    width: 1200px;
+    height: 50px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: black;
+    justify-content: space-between;
+}
+.content {
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    width: 1000px;
+}
+main {
+    max-width: 1000px;
+}
+main img{
+    width: 300px;
+    height: 200px;
+}
+
+p,
+h2,
+h4 {
+    color: white;
+}
+#Featured-Tea,
+#content-h4 {
+    position: relative;
+    left: 500px;
+}
+#content-h4 {
+    left: 480px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+}
+main {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: ;
+    justify-content: space-around;
+    flex-basis: 900px;
+    max-height: 650px;
+    flex-wrap: wrap;
+    position: relative;
+    left: 84px;
+}
+main p {
+    text-align: center;
+    padding-top: 10px;
+}
+.footer {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1200px;
+    height: 500px;
+    position: relative;
+    left: 20px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1akirx7*_ga*NzE2Mzc1NjcwMS4xNzA3MTY3Nzgy*_ga_3LRZM6TM9L*MTcwOTc3NTI2NC43OC4xLjE3MDk3ODQ1MTguNDYuMC4w");
+}
+
+.container1,
+.container2,
+.container3 {
+    border: 1px red solid;
+    background-color: black;
+    width: 300px;
+    height: 200px;
+    color: white;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.myrtle {
+    position: relative;
+    left: 75px;
+}
+.bedford {
+    position: relative;
+    right: 90px
+}
+#container0 {
+    color: #fff;
+    position: relative;
+    left: 570px;
+    top: 100px;
+    z-index: 100;
+}   
+.footer2 {
+    color: white;
+}
+.contact {
+    display: inline-flex;
+    height: 200px;
+    width: 1200px;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
